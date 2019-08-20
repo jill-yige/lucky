@@ -13,30 +13,84 @@
     </style>
 </head>
 <body>
+    <div style="">
+        <a href="/goodluck" style="float:left" ><img src="~/images/灯泡.png" alt="can't shown"width="180" height="140" title="check another !" style-align:left></a>
+        <h1 style="text-align:center; float:left; margin-left:300px;">
+            welcome to "一格的网站 "!
+        </h1>
+    </div>
+    <div style="clear:both"></div>
 
-    <h2 style="text-align:center;"><img src="/images/robots.png" width="90" height="100">welcome to "一格的网站 "!</h2>
 
-    <p style="background-color:lightslategray" font-size:10px;>这里是一格的网站&nbsp;&nbsp;&nbsp;&nbsp;interesting!&nbsp;!&nbsp;&nbsp; funny! </p>
+
+    <p style="background-color:lightslategray" font-size:20px;>这里是一格的网站&nbsp;&nbsp;&nbsp;&nbsp;interesting!&nbsp;!&nbsp;&nbsp; funny! </p>
     <h1>Today</h1>
-    <i>2019年8月20日</i>
+    <i font-size="10px">2019年8月20日</i>
     <div class="yige">
-        <h3>To Do list </h3>
+        <h2>To Do list </h2>
+        <i font-size="8">完成后请打勾</i>
         <hr />
-        <input type="radio" name="最重要的" /><br />@*这里应该是勾选*@
+        <label>First&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</label>
+        <input type="checkbox" name="最重要的事" />最重要的事：<br />
+        <label>Second;&nbsp;&nbsp;;&nbsp;&nbsp;|</label>
+        <input type="checkbox" name="重要的事" />重要的事：<br />
     </div>
     <h1>Future</h1>
-    <i>?年?月?日</i>
+
+    @*斜体字体*@
+    <form method="post">
+        <i>
+            <select name="year">
+                <option value="？">？</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+            </select>
+            年
+
+
+
+            <select name="month">
+                <option value="？">？</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+            </select>月
+
+
+
+
+            <select name="year">
+                <option value="？">？</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+            </select>
+            日
+        </i>
+    </form>
+
+
+
     <div class="yige">
 
-        <form method="post"><input type="text" name="请输入你想完成的事" value="" /></form>
-        <label for="你是不是一格本人？"></label><br />
-        <input type="radio" name="own" id="Yes" />
-        <input type="radio" name="own" id="No" />
-        <input type="submit" value="提交" />
+        <form method="post">
+            <label>请输入你想完成的事：</label>
+            <input type="text" name="一格想完成的事" value="？" size="9" maxlength="30" />
+            <textarea name="reason">请输入原因吧！</textarea>
+        </form>
+        <span>
+            <label for="你是不是一格本人？"></label><br /> @*密码格式的id*@
+            <input type="radio" name="who?" id="Yes" />
+            <input type="radio" name="who?" id="No" />
+
+            <input type="submit" value="记录" />
+            <input type="reset" value="重置" />
+        </span>
         <br />
         <br />
     </div>
-
+    @* 差一个table游戏清单&/只读与不读有什么区别？ 只读——示例 *@
 
 </body>
 </html>
