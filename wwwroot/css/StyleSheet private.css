@@ -1,0 +1,73 @@
+﻿@page body {
+}
+    .green-background
+{
+    background-color: darkseagreen;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.blue-background {
+    background: url(/images/蓝色背景图.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.center {
+    text-align: center
+}
+.oblique {
+    font-family: Algerian font-size 8rem;
+    font-style: oblique;
+    font-weight: 200;
+    padding: 20px;
+}
+
+.gray-bg {
+    background-color: gainsboro;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.justify {
+    text-align: justify 
+        
+}
+.green-background {
+    background-color: darkseagreen;
+    color: white;
+    margin: 50px;
+    padding: 40px;
+}
+
+.float-left {
+    float: left
+}
+.float-right{
+    float:right
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.italic {
+    font-style: italic;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+
+
+
+.center {
+    text-align: center
+}
+
+.padding20px {
+    padding: 10%;margin:20%
+    
+}
+

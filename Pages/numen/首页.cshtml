@@ -1,26 +1,31 @@
 ﻿@page
 <html>
-
+<head>
+    <style type="text/css">
+        /*.tr.td {border:1;
+        }*/
+    </style>
+</head>
 <body>
     <h1>这是首页</h1>
     <h2>常见问题</h2>
     <hr>
     <h3>
-        脸上有什么？
+        脸上有什么？<input type="button" onclick="alert('hello!This is a bonus ')" value="@*未定义*@"/>
     </h3>
     <hr><h4>
         有几个眼睛？<br />有几个耳朵？<br />有几个鼻子？
 
     </h4>
 
-    <table class="table table-bordered" >
+    <table>
 
         <tr>
             <th>* 社区活动 </th>
             <th>点数</th>
             <th>备注</th>
-            
-         </tr> 
+
+        </tr>
         <tr>
             <td>注册</td>
             <td>10</td>
@@ -28,17 +33,17 @@
         </tr>
         <tr>
             <td rowspan="2">
-                邀请注册  <br/>  <br/>激活Email
+                邀请注册  <br />  <br />激活Email
             </td>
-            
-            
+
+
 
             <td>10</td>
             <td>别人使用了你的邀请码完成注册</td>
         </tr>
-        
+
         <tr>
-            
+
             <td>
                 <small>20</small>
             </td>
@@ -49,6 +54,9 @@
         </tr>
 
     </table>
-
+    @*实验*@
+    <div style="float:left ;width:10px;height:50px;background-color:brown"></div>
+    <div style="float:left ;width:10px;height:50px;background-color:gold"></div>
+    <div style="clear: both;background-color:blueviolet;width:20px;height:100px;"></div>
 </body>
 </html>

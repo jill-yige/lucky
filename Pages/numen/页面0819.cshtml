@@ -2,95 +2,173 @@
 
 <html>
 <head>
-    <title>首页</title>
-    <style>
-        .yige {
-            background-color: darkseagreen;
-            color: white;
-            margin: 20px;
-            padding: 20px;
-        }
+    <title>*首页 & 一格的网站*</title>
+    <meta name="description:a time track" />
+    <link rel="stylesheet" type="text/css" href="~/css/StyleSheet private.css" />
+
+    <style type="text/css">
+        *{font-family:'Microsoft Himalaya'}
+
     </style>
 </head>
+
+
+
 <body>
-    <div style="">
-        <a href="/goodluck" style="float:left" ><img src="~/images/灯泡.png" alt="can't shown"width="180" height="140" title="check another !" style-align:left></a>
-        <h1 style="text-align:center; float:left; margin-left:300px;">
-            welcome to "一格的网站 "!
-        </h1>
-    </div>
+
+    <header class="oblique">Higher ! faster ! stronger !  </header>
+
+    <a href="/goodluck" style="float:left">
+        <img src="~/images/灯泡.png" alt="This a lamp buld" width="180" height="140"
+             title="check another !" style-align:right>
+    </a>
+    <h1 style="text-align:center; float:left; margin-left:300px;">
+        welcome to "一格的网站 "!
+    </h1>
     <div style="clear:both"></div>
 
 
 
-    <p style="background-color:lightslategray" font-size:20px;>这里是一格的网站&nbsp;&nbsp;&nbsp;&nbsp;interesting!&nbsp;!&nbsp;&nbsp; funny! </p>
-    <h1>Today</h1>
-    <i font-size="10px">2019年8月20日</i>
-    <div class="yige">
-        <h2>To Do list </h2>
-        <i font-size="8">完成后请打勾</i>
-        <hr />
-        <label>First&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</label>
-        <input type="checkbox" name="最重要的事" />最重要的事：<br />
-        <label>Second;&nbsp;&nbsp;;&nbsp;&nbsp;|</label>
-        <input type="checkbox" name="重要的事" />重要的事：<br />
-    </div>
-    <h1>Future</h1>
+    <p class="gray-bg justify">这里是一格的网站 interesting!funny! </p>
 
-    @*斜体字体*@
-    <form method="post">
-        <i>
-            <select name="year">
-                <option value="？">？</option>
-                <option value="2019">2019</option>
-                <option value="2020">2020</option>
-                <option value="2021">2021</option>
-            </select>
-            年
-
-
-
-            <select name="month">
-                <option value="？">？</option>
-                <option value="01">01</option>
-                <option value="02">02</option>
-                <option value="03">03</option>
-            </select>月
-
-
-
-
-            <select name="year">
-                <option value="？">？</option>
-                <option value="01">01</option>
-                <option value="02">02</option>
-                <option value="03">03</option>
-            </select>
-            日
-        </i>
-    </form>
-
-
-
-    <div class="yige">
-
-        <form method="post">
-            <label>请输入你想完成的事：</label>
-            <input type="text" name="一格想完成的事" value="？" size="9" maxlength="30" />
-            <textarea name="reason">请输入原因吧！</textarea>
+    <main>
+        <h1>Today</h1>
+        <i font-size="20px">2019年8月20日</i>
+        <div class="green-background">
+            <h1>To Do list </h1>
+            <i font-size="8">完成后请打勾</i>
+            <hr />
+            <label>
+                First
+                <input type="checkbox" name="最重要的事" />最重要的事：
+            </label>
+            <label>
+                Second
+                <input type="checkbox" name="重要的事" />重要的事：
+            </label>
+        </div>
+        <form>
+            <h1>Future</h1>
+            <input type="date" name="date" />
         </form>
-        <span>
-            <label for="你是不是一格本人？"></label><br /> @*密码格式的id*@
-            <input type="radio" name="who?" id="Yes" />
-            <input type="radio" name="who?" id="No" />
+        <div class="green-background">
+            <form method="post">
+                <label>请输入你想完成的事：</label>
+                <textarea name="The things yige plan to do:" maxlength:30;style="height:100px width:180px">一格将要完成的事，请记录下更多细节吧！</textarea>
+            </form>
+            <form>
+                <label>你是不是一格本人？></label>
+                <label>
+                    <input type="radio" name="who?" />Yes !
+                </label>
+                如果是，请输入一格的ID<input type="password" name="id" maxlength="4" style="width:80px" />
+                <label><input type="radio" name="who?" />No!</label>
 
-            <input type="submit" value="记录" />
-            <input type="reset" value="重置" />
-        </span>
-        <br />
-        <br />
-    </div>
-    @* 差一个table游戏清单&/只读与不读有什么区别？ 只读——示例 *@
+
+                <input type="submit" value="记录" />
+                <input type="reset" value="重置" />
+                <h1>pass</h1>
+                <i style="font-size:small">一格的日志</i>
+                <article>
+                    <h3>Weather：? Day:</h3>
+                    <input nanme="date" list="date" />@*这里只有文本框没有下拉列表出错出错*@
+                    <datalist id="date">
+                        <option value="sunday" />
+                        <option value="saturday" />
+                        <option value="workdays" />
+                    </datalist>
+                    <input type="submit" />
+
+
+
+
+                    <h3> Mood：? </h3>
+                    <i>toptic:a text from Beijing</i>
+                    <hr />
+                    <div>
+                        韧性”是指物体柔软坚实、不易折断的性质。中华文明历经风雨，绵延至今，体现出“韧”的精神。
+                    </div><div>
+                        回顾漫长的中国历史，每逢关键时刻，这种文明的韧性体现得尤其明显。
+                        中华民族的伟大复兴，更需要激发出这种文明的韧性。
+                    </div><div>
+                        请以“文明的韧性”为题，从中国的历史变迁、思想文化、语言文字、文学艺术、社会生活及中国人的品格等角度，write down your idea。
+                    </div>
+
+                </article>
+
+            </form>
+
+
+        </div>
+        @* 只读与不读 只读——示例 *@
+        <table border="1" ;,style=center;>
+
+            <caption>*Special days from<mark>Augst</mark>  !</caption>
+            <tr>
+                <td>date</td>
+                <td>Festival</td>
+                <td>holiday/放假天数！</td>
+                <td>Remark</td>
+
+            </tr>
+            <tr>
+                <td>8月1日</td>
+                <td>中国人民解放军建军节(Army Day)</td>
+                <td rowspan="2" class="center">0天</td>
+                <td>&nbsp;</td>
+            <tr>
+                <td>8月12日</td>
+                <td>国际青年节(International Youth Day)</td>
+                <td rowspan="2">&nbsp;</td>
+            </tr>
+        </table>
+        <img src="~/images/panda0.png" alt="This is a panda" class="float-left" />
+
+        <h3>一格的作业</h3>
+        <nav>
+            <ul>
+
+                <li><a targrt="_black" href="/numen/首页">0818(table）</a></li>
+                <li><a target="_black" href="/numen/goodluck">0819(unflished)</a></li>
+                <li><a target="_black" href="/numen/页面0819">当前页面</a></li>
+            </ul>
+        </nav>
+        <aside>
+            <p>话题关键字：</p>
+            <div>红树林</div><div>亚马逊雨林</div><div>蛋黄</div>
+        </aside>
+        <aside>
+            <p>
+                a introduction from yige:
+                A student, from Amoy
+            </p>
+        </aside>
+
+        <aside><div>Task：please write down your personal experience <div>about peseverance!</div></div></aside>
+        <aside>
+            <table border="1" width="100%" style="border-collapse: collapse;">
+                <thead>农贸市场</thead>
+                <tr><td>nutrition</td><td>value</td></tr>
+                <tr><td>老面馒头</td><td>负值(?</td>)</tr>@*改写表格类型*@
+                <tr><td>ghee</td><td>+100</td></tr>
+                <tr><td>柠檬</td><td>友好</td></tr>
+                <tr><td>蜂蜜</td><td>nice</td></tr>
+                <tr><td>麻花</td><td>未知</td></tr>
+                <tr><td>鹌鹑蛋</td><td>404</td></tr>
+                <tr><td>咖啡</td><td>maybe best/worst</td></tr>
+                <tr><td>海带</td><td>+10</td></tr>
+            </table>
+        </aside>
+        <aside><p>recommend website（Games）？</p></aside>
+        <hr />
+    </main>
+    <footer>
+        <i style="font-size:small">
+            if you have any advice please send E-mail to:1196688913@qq.com
+            Thank you for your feedback!
+        </i>
+    </footer>
+
 
 </body>
 </html>
