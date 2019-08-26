@@ -1,62 +1,40 @@
 ﻿@page
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="~/css/StyleSheet private.css" />
     <style type="text/css">
-        /*.tr.td {border:1;
-        }*/
+        * {
+            font-family: 'Microsoft Himalaya',SimSun, font-size2rem
+        }
     </style>
 </head>
 <body>
-    <h1>这是首页</h1>
-    <h2>常见问题</h2>
+    <h1>Daily Challenge</h1>
+    <h2>Today's ideas are about classical mechanics</h2>
     <hr>
-    <h3>
-        脸上有什么？<input type="button" onclick="alert('hello!This is a bonus ')" value="@*未定义*@"/>
-    </h3>
-    <hr><h4>
-        有几个眼睛？<br />有几个耳朵？<br />有几个鼻子？
+    <h2>
+        Spinning Through Space
+        @*<input type="button" onclick="alert('congratulation！')" value="@*未定义*@"
+    </h2>
+    <p class="brown-background">
+        Another day at the office in your job as a space janitor means more debris to clear.
+        Your equipment has been upgraded from the baseball bat in the last problem,though.
+        You now have a debris-blaster — a high-powered paintball gun that you can use to shoot
+        the debris to where it needs to go.But this blaster is not very accurate, so now you
+        are even more likely than before to miss the center of your target. When you hit a bar off-center,
+        will it still go as far?
 
-    </h4>
+        Keep reading
 
-    <table>
+        Today's Challenge
+        You are shifting space debris today with your debris-blaster. You strike two identical metal bars with
+        identical pellets, and in each case the pellet perfectly sticks to the bar. But one pellet strikes its
+        bar near one end, making it spin, and the other pellet strikes the center of its bar.
 
-        <tr>
-            <th>* 社区活动 </th>
-            <th>点数</th>
-            <th>备注</th>
+    </p>
+    @*<input type="button" onclick="alert('congratulation！')" value="@*未定义*@"
+    @*<input type="button" onclick="alert('try again')" value="@*未定义*@"
+    @*<input type="button" onclick="alert('try again！')" value="@*未定义*@"
 
-        </tr>
-        <tr>
-            <td>注册</td>
-            <td>10</td>
-            <td>使用了别人的邀请码</td>
-        </tr>
-        <tr>
-            <td rowspan="2">
-                邀请注册  <br />  <br />激活Email
-            </td>
-
-
-
-            <td>10</td>
-            <td>别人使用了你的邀请码完成注册</td>
-        </tr>
-
-        <tr>
-
-            <td>
-                <small>20</small>
-            </td>
-            <td>
-                不是填写了Email就有点数，Email必须被验证激活
-            </td>
-
-        </tr>
-
-    </table>
-    @*实验*@
-    <div style="float:left ;width:10px;height:50px;background-color:brown"></div>
-    <div style="float:left ;width:10px;height:50px;background-color:gold"></div>
-    <div style="clear: both;background-color:blueviolet;width:20px;height:100px;"></div>
 </body>
 </html>

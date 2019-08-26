@@ -1,39 +1,85 @@
 ﻿@page body {
 }
-    .green-background
+.ms{
+    font-family: 'Microsoft Himalaya','SimSun';
+}
+.inline {display: inline}
+
+.preline {white-space: pre-line}
+
+.green-background 
 {
     background-color: darkseagreen;
     color: white;
     margin: 20px;
     padding: 20px;
 }
-.blue-background {
+
+.blue-background 
+{
     background: url(/images/蓝色背景图.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
 }
-.center {
+
+.brown-background 
+{
+    background-color: sandybrown;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.big 
+{
+    font-weight: 700;
+    text-align: center;
+    font-size: 7rem;
+}
+
+.small-i 
+{
+    font-size: small;
+    font-style: italic
+}
+
+.center 
+{
+    font-weight: 500;
     text-align: center
 }
-.oblique {
-    font-family: Algerian font-size 8rem;
+
+.oblique
+{
+    
     font-style: oblique;
     font-weight: 200;
     padding: 20px;
 }
 
-.gray-bg {
+.gray-bg
+{
     background-color: gainsboro;
     color: black;
     margin: 10px;
     padding: 10px;
 }
 
-.justify {
-    text-align: justify 
-        
+.position-center
+{
+    position: absolute;
+    left: 30px;
+    top: 20px;
 }
-.green-background {
+
+
+.justify
+{
+    text-align: justify
+}
+
+.green-background 
+{
     background-color: darkseagreen;
     color: white;
     margin: 50px;
@@ -43,31 +89,29 @@
 .float-left {
     float: left
 }
-.float-right{
-    float:right
+
+.float-right {
+    float: right
 }
 
-table, td, th {
+.table1 {
     border: 1px solid black;
     border-collapse: collapse;
 }
+
 .italic {
     font-style: italic;
 }
 
 .opacity {
-    opacity: 0.5;
+    opacity: 0.6;
 }
-
-
-
 
 .center {
     text-align: center
 }
 
 .padding20px {
-    padding: 10%;margin:20%
-    
+    padding: 10%;
+    margin: 20%
 }
-
