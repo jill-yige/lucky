@@ -585,3 +585,111 @@ fieldset[disabled] .btn-danger.active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 /*# sourceMappingURL=bootstrap-theme.css.map */
+.ms {
+    font-family: 'Microsoft Himalaya','SimSun';
+}
+
+.inline {
+    display: inline
+}
+
+.preline {
+    white-space: pre-line
+}
+
+.green-background {
+    background-color: darkseagreen;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.blue-background {
+    background: url(/images/À¶É«±³¾°Í¼.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.brown-background {
+    background-color: sandybrown;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.big {
+    font-weight: 700;
+    text-align: center;
+    font-size: 7rem;
+}
+
+.small-i {
+    font-size: small;
+    font-style: italic
+}
+
+.center {
+    font-weight: 500;
+    text-align: center
+}
+
+.oblique {
+    font-style: oblique;
+    font-weight: 200;
+    padding: 20px;
+}
+
+.gray-bg {
+    background-color: gainsboro;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.position-center {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+
+.justify {
+    text-align: justify
+}
+
+.green-background {
+    background-color: darkseagreen;
+    color: white;
+    margin: 50px;
+    padding: 40px;
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right
+}
+
+.table1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.opacity {
+    opacity: 0.6;
+}
+
+.center {
+    text-align: center
+}
+
+.padding20px {
+    padding: 10%;
+    margin: 20%
+}

@@ -12,12 +12,12 @@
             margin: 0;
         }
 
-        #margain {
-            margin: 0 50px 50px 700px
+
+        green-background {
+            margin: 0 400px 50px 80px
         }
 
         h1 {
-            
             font-weight: 200;
             font-size: 7rem;
             font-family: 'Microsoft Himalaya''SimSun';
@@ -49,16 +49,21 @@
             clear: both;
             visibility: hidden;
         }
-        .margain-60{margin:60px 0 0 0;}
 
-       
+        .margain-60 {
+            margin: 60px 0 0 0;
+        }
+
+        #margain {
+            margin: 15px 150px 30px 10px
+        }
     </style>
-    <link href="~/css/"
+
 </head>
 
 <body>
 
-    <header class="three oblique float-left">Higher ! faster ! stronger !  </header>
+
 
 
     <h1 class="ms center margain-60">
@@ -67,130 +72,138 @@
 
 
 
-    <p class="gray-bg right three ms">created by yige/ interesting!funny! </p>
+    <p class="gray-bg right three ms">created by yige/  interesting!funny! </p>
+    <aside class=“left col-md-2”></aside>
+        </ aside>
+        <div class=“left col-md-7”>
+            23</div>
+        <aside class=“left col-md-3”></aside>
+          
+                <div>
+                    <table class="table table-hover table pull-right">
+                        <caption>Game</caption>
+                        <thead>
+                            <tr>
 
-    <main id="margain">
-        <h1 class="margain-60">Today</h1>
-        <p class="small-i">2019年8月26日</p>
-        <div class="green-background">
+                                <th class="center">popular/interesting/funny </th>
 
-
-            <h1 class="text-center">To Do list </h1>
-            <p class="float-left small-i">(完成后请打勾)</p>
-
-            <hr class="clear-after"/>
-            <label>
-                First
-                <input type="checkbox" name="最重要的事" />最重要的事：
-            </label>
-            <label>
-                Second
-                <input type="checkbox" name="重要的事" />重要的事：
-            </label>
-        </div>
-        <form>
-            <h1>Future</h1>
-            <input type="date" name="date" />
-        </form>
-        <div class="green-background">
-            <form method="post">
-                <label>请输入你将完成的事：</label>
-                <textarea name="The things yige plan to do:" maxlength:300%;>请记录下更多细节！</textarea>
-            </form>
-            <form>
-                <label>一格本人？！></label>
-                <label>
-                    <input type="radio" name="who?" />Yes !
-                </label>
-                input yige's id<input type="password" name="id" maxlength="4" style="width:80px" />
-                <label><input type="radio" name="who?" />No!</label>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://ncase.itch.io/wbwwb">:WE BECOME WHAT WE BEHOLD</a>(created by Nicky Case, in two months! </td>
+                            </tr>
+                            <tr><td>second:Baba Is You</td></tr>
+                            <tr><td>third:Don’t Starve</td></tr>
 
 
-                <input type="submit" value="记录" />
-                <input type="reset" value="重置" />
-                <h1>pass</h1>
-                <i style="font-size:small">日志</i>
-
-                <h3>Weather：? Day:</h3>
-                <input nanme="date" list="date" />
-                <datalist id="date">
-                    <option value="sunday" />
-                    <option value="saturday" />
-                    <option value="workdays" />
-                </datalist>
-                <input type="submit" />
-                <h3 class="preline"> Mood：? </h3>
-            </form>
+                        </tbody>
+                    </table>
+                </div>
 
 
-        </div>
-        @* 只读与不读 只读——示例 *@
-        <table class="table1 float-right">
+                @*<caption>*Special days from<mark>Augst</mark>  !</caption>
+                    <tr>
+                        <td>Date</td>
+                        <td>Festival</td>
+                        <td>Holiday/放假天数</td>
+                        <td>Remark</td>
 
-            <caption>*Special days from<mark>Augst</mark>  !</caption>
-            <tr>
-                <td>date</td>
-                <td>Festival</td>
-                <td>holiday/放假天数</td>
-                <td>Remark</td>
+                    </tr>
+                    <tr>
+                        <td>8月1日</td>
+                        <td>中国人民解放军建军节(Army Day)</td>
+                        <td rowspan="2" class="center">0天</td>
+                        <td>&nbsp;</td>
+                    <tr>
+                        <td>8月12日</td>
+                        <td>国际青年节(International Youth Day)</td>
+                        <td rowspan="2">&nbsp;</td>
+                    </tr>
+                *@
 
-            </tr>
-            <tr>
-                <td>8月1日</td>
-                <td>中国人民解放军建军节(Army Day)</td>
-                <td rowspan="2" class="center">0天</td>
-                <td>&nbsp;</td>
-            <tr>
-                <td>8月12日</td>
-                <td>国际青年节(International Youth Day)</td>
-                <td rowspan="2">&nbsp;</td>
-            </tr>
-        </table>
-        <div class="float-right">
-            <img src="~/images/panda0.png" alt=" a panda" height:200%;width:260%; />
+                <main id="margain">
+                    <h1 class="margain-60">Today</h1>
+                    <p class="small-i">2019年8月26日</p>
+                    <div class="green-background">
 
-            <h3>一格的作业</h3>
-            <nav>
-                <ul>
-                    <li><a targrt="_black" href="/numen/首页">0818(table）</a></li>
-                    <li><a target="_black" href="/numen/goodluck"></a></li>
-                    <li>当前页面</li>
-                </ul>
-            </nav>
-        </div>
 
-        <aside>
-            <p>
-                a introduction from yige:
-                A student, from Amoy
-            </p>
-        </aside>
+                        <h1 class="text-center">To Do list </h1>
+                        <p class="float-left small-i">(完成后请打勾)</p>
 
-        <aside><div>Task：please write down your personal experience <div>about peseverance!</div></div></aside>
-        <aside class="float-right">
-            <table width="20%" class="table1">
-                @*改写表格样式*@
-                <thead>农贸市场</thead>
-                <tr><td>nutrition</td><td>value</td></tr>
-                <tr><td>老面馒头</td><td>负值(?</td>)</tr>
-                <tr><td>ghee</td><td>+100</td></tr>
-                <tr><td>柠檬</td><td>友好</td></tr>
-                <tr><td>蜂蜜</td><td>nice</td></tr>
-                <tr><td>麻花</td><td>未知</td></tr>
-                <tr><td>鹌鹑蛋</td><td>404</td></tr>
-                <tr><td>咖啡</td><td>maybe best/worst</td></tr>
-                <tr><td>海带</td><td>+10</td></tr>
-            </table>
-        </aside>
-        <aside><p>recommend website（Games）？</p></aside>
-        <hr />
-    </main>
-    <footer>
-        <p class="small-i">
-            if you have any advice please send E-mail to:1196688913@qq.com
-            Thank you for your feedback!
-        </p>
-    </footer>
+                        <hr class="clear-after" />
+                        <label>
+                            First
+                            <input type="checkbox" name="最重要的事" />最重要的事：
+                        </label>
+                        <label>
+                            Second
+                            <input type="checkbox" name="重要的事" />重要的事：
+                        </label>
+                    </div>
+                    <form>
+                        <h1>Future</h1>
+                        <input type="date" name="date" />
+                    </form>
+                    <div class="green-background">
+                        <form method="post">
+                            <label>请输入你将完成的事：</label>
+                            <textarea row="3" name="The things yige plan to do:" ;>请记录下更多细节！</textarea>
+                        </form>
+                        <form>
+                            <label>一格本人？！></label>
+                            <label>
+                                <input type="radio" name="who?" />Yes !
+                            </label>
+                            input yige's id<input type="password" name="id" maxlength="4" style="width:70px" />
+                            <label><input type="radio" name="who?" />No!</label>
+
+
+                            <input type="submit" value="记录" />
+                            <input type="reset" value="重置" />
+                            <div></div>
+                            <h1>pass</h1>
+                            <i style="font-size:small">日志</i>
+
+                            <h3>Weather：? Day:</h3>
+                            <input nanme="date" list="date" />
+                            <datalist id="date">
+                                <option value="sunday" />
+                                <option value="saturday" />
+                                <option value="workdays" />
+                            </datalist>
+                            <input type="submit" />
+                            <h3 class="preline"> Mood：? </h3>
+                        </form>
+
+
+                    </div>
+                    @* 只读与不读 只读——示例 *@
+
+                    <div class="float-right">
+                        <img src="~/images/panda0.png" alt=" a panda" height:200%;width:260%; />
+
+                        <h3>一格的作业</h3>
+                        <nav>
+                            <ul>
+                                <li><a targrt="_black" href="/numen/首页">daily challenge</a></li>
+                                <li><a target="_black" href="/numen/goodluck"></a>goodluck</li>
+                                <li><a target="_black" href="/numen/页面0819" style="background-color:darkgrey">当前页面</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+
+
+                    <hr />
+                </main>
+                <footer>
+                    <p class="small-i">
+                        if you have any advice please send E-mail to:11~~~8913@qq.com
+                        Thank you for your feedback!
+                    </p>
+                </footer>
 
 
 </body>
