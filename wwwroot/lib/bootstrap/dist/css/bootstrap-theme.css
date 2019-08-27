@@ -636,7 +636,7 @@ fieldset[disabled] .btn-danger.active {
 .oblique {
     font-style: oblique;
     font-weight: 200;
-    padding: 20px;
+   
 }
 
 .gray-bg {
@@ -692,4 +692,23 @@ fieldset[disabled] .btn-danger.active {
 .padding20px {
     padding: 10%;
     margin: 20%
+}
+
+.three {
+    font-size: 3em;
+}
+
+a {
+    text-decoration: none
+}
+.clear-after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.margain-60 {
+    margin: 60px 0 0 0;
 }
